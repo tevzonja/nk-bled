@@ -1,0 +1,121 @@
+Načrt ocenjevanja za lastno spletišče: TOČKOVALNIK
+
+Priimek in ime: ____________________________________________________
+Razred: _______________________
+
+1.	NAČRTOVANJE (10 točk)
+Kriterij	Število
+točk	Dosežene
+točke
+•	Izvirnost ideje	2	
+•	Določitev ciljne skupine in namen spletišča	1	
+•	Izdelava zemljevida spletišča	3	
+•	Osnutek postavitve spletnih strani	3	
+•	Izbira orodij za izdelavo spletišča	1	
+Skupno točk	10
+
+
+2.	IZVEDBA SPLETIŠČA (70 točk)
+Kriterij	Število točk	Dosežene točke
+Minimalni nivo
+HTML	Obseg: minimalno 5 strani	5	
+	Besedilo	2	
+	Slike	2	
+	Tabele	2	
+	Povezave	2	
+	Obrazec	2	
+	Meni	2	
+CSS	Zunanja datoteka	2	
+	Pravilna sintaksa in komentarji	2	
+	Uporaba različnih selektorjev	2	
+	Oblikovana pisava	1	
+	Oblikovano besedilo	1	
+	Ozadje	1	
+	Povezave s psevdorazredi	1	
+	Oblikovani seznami	1	
+	Notranji in zunanji odmiki	2	
+	Oblikovane obrobe	1	
+Skupno točk	31
+
+Srednji nivo
+HTML	Obseg: minimalno 8 strani	4	
+	Semantična struktura	1	
+	4 meta oznake v glavi	1	
+	Opisni in kombiniran seznam	1	
+	Audio in video	1	
+	I-okvir	1	
+	Obrazec	2	
+CSS	Oblikovana tabela	1	
+	Nastavljena velikost elementov	1	
+	Pozicioniranje	1	
+	Poravnave elementov	1	
+	Psevdorazredi in elementi	1	
+Skupno točk	16
+
+Maksimalni nivo
+HTML	Obseg: minimalno 11 strani	4	
+	Semantična struktura	1	
+	Zahtevnejša tabela	1	
+	Galerija slik	1	
+	Obrazec z novimi tipi elementov	1	
+	Canvas ali SVG	1	
+	API vtičnik	1	
+CSS	Postavitev strani s CSS	1	
+	Oblikovan meni	1	
+	Oblikovana galerija slik	1	
+	CSS3: senčenje, barvni prehodi, efekti…	1	
+	Prilagodljive strani (Responsive Web)	1	
+Skupno točk	15
+
+
+•	Minimalni nivo spletišča	31	
+•	Srednji nivo spletišča	16	
+•	Maksimalni nivo spletišča	15	
+•	Testiranje spletišča	2	
+•	SIO optimizacija	2	
+•	Objava spletišča v internetu	4	
+Skupno točk	70	
+
+3.	DOKUMENTACIJA (10 točk)
+
+Kriterij	Število
+točk	Dosežene
+točke
+•	Vsebina dokumentacije (načrtovanje spletišča, blokdiagram, osnutek postavitve spletnih strani, orodja za izdelavo, postopek izdelave spletišča, določitev grafične oblike, kratek opis izdelave spletišča, opis morebitnih težav pri izdelavi, možnosti nadgradnje, …)	4	
+•	Zgradba dokumentacije (uvodni del, kazalo vsebine, kazalo slik, uporabljeni simboli, ustrezni naslovi in podnaslovi, vsebina, glava in noga strani, številčenje, vstavljene slike z napisi pod slikami, zaključek, literatura po ISO standardu)	3	
+•	Slovnična in jezikovna ustreznost dokumentacije	1	
+•	Oblikovna ustreznost dokumentacije	1	
+•	Ustrezen obseg dokumentacije (min. 5 strani)	1	
+Skupno točk	10
+
+
+
+4.	ZAGOVOR (10 točk)
+
+Kriterij	Število točk	Dosežene
+točke
+•	Priprava predstavitve za zagovor	3	
+•	Izvedba zagovora:
+	ustrezna vsebina in zgradba zagovora	3	
+	jezikovna pravilnost zagovora 	1	
+	govorna realizacija in nastop	2	
+	upoštevanje časovne omejitve (5 minut)	1	
+Skupno točk	10
+
+
+POVZETEK
+Deli 	Možno št. točk	Doseženo št. točk
+1.	Načrtovanje	10	
+2.	Izvedba spletišča	70	
+3.	Dokumentacija	10	
+4.	Zagovor	10	
+Skupno	100	
+
+Meje ocenjevanja
+Točke		Ocena
+88 - 100	=	odl (5)
+75 - 87	=	pd (4)
+60 - 74	=	db (3)
+50 - 59	=	zd (2)
+0 - 49	=	nzd (1)
+

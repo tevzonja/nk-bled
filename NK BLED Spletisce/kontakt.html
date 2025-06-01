@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt - NK Bled</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#meni">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="slike/logotip.png" alt="NK Bled logotip"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="meni">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Domov</a></li>
+          <li><a href="onas.html">O nas</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Ekipe <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="ekipe/clani.html">Člani</a></li>
+              <li><a href="ekipe/mladinci.html">Mladinci</a></li>
+              <li><a href="ekipe/kadeti.html">Kadeti</a></li>
+              <li><a href="ekipe/otroskanogometna.html">Otroška nogometna šola</a></li>
+            </ul>
+          </li>
+          <li><a href="razpored.html">Razpored tekem</a></li>
+          <li><a href="novice.html">Novice</a></li>
+          <li><a href="galerija.html">Galerija</a></li>
+          <li class="active"><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div class="container">
+  <h2 class="text-center">Kontaktni obrazec</h2>
+  <form class="well well-lg" style="max-width:500px;margin:0 auto;box-shadow:0 0 15px #007bff;border-radius:10px;background:rgba(255,255,255,0.95);">
+    <div class="form-group">
+      <label for="ime"><i class="fa fa-user"></i> Ime:</label>
+      <input type="text" class="form-control" id="ime" name="ime" placeholder="Vaše ime" required>
+    </div>
+    <div class="form-group">
+      <label for="email"><i class="fa fa-envelope"></i> E-pošta:</label>
+      <input type="email" class="form-control" id="email" name="email" placeholder="vaš@email.si" required>
+    </div>
+    <div class="form-group">
+      <label for="telefon"><i class="fa fa-phone"></i> Telefon:</label>
+      <input type="tel" class="form-control" id="telefon" name="telefon" placeholder="npr. 041 123 456">
+    </div>
+    <div class="form-group">
+      <label for="datum"><i class="fa fa-calendar"></i> Datum rojstva:</label>
+      <input type="date" class="form-control" id="datum" name="datum">
+    </div>
+    <div class="form-group">
+      <label for="sporocilo"><i class="fa fa-comment"></i> Sporočilo:</label>
+      <textarea class="form-control" id="sporocilo" name="sporocilo" rows="3" placeholder="Vaše sporočilo..."></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary btn-block" style="font-size:18px;"><i class="fa fa-paper-plane"></i> Pošlji</button>
+  </form>
+  <h2 class="text-center" style="margin-top:40px;">Lokacija kluba</h2>
+  <div class="text-center">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2762.123456789!2d14.112233!3d46.369876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477a1b1b1b1b1b1b%3A0x1b1b1b1b1b1b1b1b!2sBled!5e0!3m2!1ssl!2ssi!4v1620000000000!5m2!1ssl!2ssi" width="400" height="300" style="border:0;box-shadow:0 0 10px #007bff;border-radius:10px;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

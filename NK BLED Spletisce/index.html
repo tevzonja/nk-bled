@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="sl">
+
+<head>
+  <title>NK Bled | Domača stran</title>
+
+  <meta charset="utf-8">
+  <meta name="keywords" content="NK Bled, nogometni klub, Bled, nogomet, mladinski nogomet, člansko moštvo">
+  <meta name="description"
+    content="Uradna spletna stran nogometnega kluba Bled. Novice, rezultati, razpored tekem, članstvo in dogodki.">
+  <meta name="author" content="NK Bled">
+  <link rel="icon" href="slike/favicon.png" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <!-- Oblikovni slogi spletišča -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <header>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+
+        <div class="navbar-header">
+          <!-- gumb menija -->
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#meni">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- logotip -->
+          <a class="navbar-brand" href="index.html"><img src="slike/logotip.png" alt="NK Bled logotip"></a>
+        </div>
+
+        <!-- meni, ki se na manjših zaslonih skrči -->
+        <div class="collapse navbar-collapse" id="meni">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">Domov</a></li>
+            <li><a href="onas.html">O nas</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">Ekipe <span
+                  class="caret"></span></a>
+              <!-- spustni meni -->
+              <ul class="dropdown-menu">
+                <li><a href="ekipe/clani.html">Člani</a></li>
+                <li><a href="ekipe/mladinci.html">Mladinci</a></li>
+                <li><a href="ekipe/kadeti.html">Kadeti</a></li>
+                <li><a href="ekipe/otroskanogometna.html">Otroška nogometna šola</a></li>
+              </ul>
+            </li>
+            <li><a href="razpored.html">Razpored tekem</a></li>
+            <li><a href="novice.html">Novice</a></li>
+            <li><a href="galerija.html">Galerija</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+  <section id="domov">
+    <!-- Vrtiljak slik -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Kazalniki vrtljivih slik -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Okvir vrtiljaka slik -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="slike/soccer-throw-during-children-sports-600nw-2413846401.webp" alt="Stadion NK Bled">
+          <div class="carousel-caption">
+            <p>Dobrodošli na uradni spletni strani nogometnega kluba Bled.</p>
+            <a href="onas.html" class="btn btn-default">Več o klubu</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="slike/images.jpg" alt="Članska ekipa NK Bled">
+          <div class="carousel-caption">
+            <p>Naša članska ekipa nastopa v Slovenski nogometni ligi.</p>
+            <a href="ekipe/clani.html" class="btn btn-default">Spoznajte ekipo</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="slike/download.jpg" alt="Mladinska sekcija NK Bled">
+          <div class="carousel-caption">
+            <p>Vabimo otroke vseh starosti k vpisu v našo nogometno šolo.</p>
+            <a href="ekipe/otroskanogometna.html" class="btn btn-default">Več informacij</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Leva in desna kontrolna puščica -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+  <!-- Okvir 'Naše ekipe' s štirimi stolpci -->
+  <div class="container text-center">
+    <h1>Naše ekipe</h1>
+    <div class="row">
+      <div class="col-sm-3">
+        <img src= "slike/člani.png" alt="Člani" class="ikona img-circle">
+        <h3>Člani</h3>
+        <p>Članska ekipa NK Bled v sezoni 2024/2025</p>
+      </div>
+      <div class="col-sm-3">
+        <img src="slike/mladinci.png" alt="Mladinci" class="ikona img-circle">
+        <h3>Mladinci</h3>
+        <p>Mladinska ekipa U19 NK Bled</p>
+      </div>
+      <div class="col-sm-3">
+        <img src="slike/kadeti.png" alt="Kadeti" class="ikona img-circle">
+        <h3>Kadeti</h3>
+        <p>Kadetska ekipa U17 NK Bled</p>
+      </div>
+      <div class="col-sm-3">
+        <img src="slike/nogometnasola.png" alt="Otroška nogometna šola" class="ikona img-circle">
+        <h3>Nogometna šola</h3>
+        <p>Za otroke od 6 do 15 let</p>
+      </div>
+    </div>
+  </div>
+  <!-- Okvir 'Zgodovina in Dosežki' -->
+  <div id="besedilo">
+    <div class="container">
+      <div class="row">
+        <!-- Število stolpcev se spreminja glede na velikost naprave -->
+        <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+          <h2>Zgodovina kluba</h2>
+          <p>Nogometni klub Bled je bil ustanovljen leta 1962 na pobudo skupine lokalnih športnih entuziastov. Sprva je klub deloval kot amatersko društvo, ki je združevalo ljubitelje nogometa iz Bleda in okolice. Skozi leta se je klub razvijal in postopoma gradil svojo prepoznavnost v slovenskem nogometnem prostoru.</p>
+          <p>V 80. letih prejšnjega stoletja je klub doživel prvi večji razcvet, ko se je prebil v višjo ligo takratne Jugoslavije. Po osamosvojitvi Slovenije je NK Bled nadaljeval s tekmovanjem v slovenskih ligah in začel sistematično delati z mladimi.</p>
+          <p>Danes je NK Bled sodoben klub z dobro razvito infrastrukturo, ki tekmuje v slovenski nogometni ligi in ima obsežen program dela z mladimi. Ponosni smo na našo bogato zgodovino in tradicijo, ki nas obvezuje, da se še naprej razvijamo in dosegamo vrhunske rezultate.</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+          
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+          <h2>Naši dosežki</h2>
+          <p>NK Bled se lahko pohvali z vrsto pomembnih dosežkov v svoji zgodovini. Med najpomembnejše spadajo uvrstitve v višje lige, zmage v pokalu Slovenije ter številni uspehi naših mladinskih selekcij na domačih in mednarodnih turnirjih.</p>
+          <p>Posebej ponosni smo na uspehe naše mladinske akademije, ki je v zadnjih letih vzgojila več igralcev, ki so danes člani slovenskih reprezentančnih selekcij in igrajo v uglednih evropskih klubih. Naš cilj je nadaljevati s kakovostnim delom in postati eden vodilnih slovenskih klubov v vzgoji mladih nogometašev.</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Okvir 'Mnenja naših članov' s tremi stolpci in sredinsko poravnavo besedila -->
+  <div class="container text-center">
+    <h1>Mnenja naših članov</h1>
+    <div class="row">
+      <div class="mnenje col-sm-4">
+        <img src= slike/šeško.png alt="Marko Kovač" class="ikona img-circle">
+        <p class="poved"><sup><i class="fa fa-quote-left" aria-hidden="true"></i></sup> V NK Bled sem začel igrati kot otrok in tukaj ostal vse do članske ekipe. Klub mi je dal ne samo nogometno znanje, ampak me je naučil tudi timskega dela, discipline in odgovornosti. To so vrednote, ki mi koristijo tudi v vsakdanjem življenju. <sup><i class="fa fa-quote-right" aria-hidden="true"></i></sup></p>
+        <p class="ime">Marko Kovač, kapetan članske ekipe</p>
+      </div>
+      <div class="mnenje col-sm-4">
+        <img src= slike/oblak.png alt="Janez Novak" class="ikona img-circle">
+        <p class="poved"><sup><i class="fa fa-quote-left" aria-hidden="true"></i></sup> Kot trener mladinske ekipe sem ponosen na profesionalen pristop, ki ga imamo v klubu do dela z mladimi. Veliko pozornosti posvečamo ne samo tehničnemu znanju, ampak tudi pravilnemu razvoju mladih športnikov. Ustvarjamo okolje, kjer lahko vsak posameznik doseže svoj maksimum. <sup><i class="fa fa-quote-right" aria-hidden="true"></i></sup></p>
+        <p class="ime">Janez Novak, trener mladinske ekipe</p>
+      </div>
+      <div class="mnenje col-sm-4">
+        <img src= slike/bejba.png alt="Nina Vidmar" class="ikona img-circle">
+        <p class="poved"><sup><i class="fa fa-quote-left" aria-hidden="true"></i></sup> Kot starš sem zelo zadovoljna z delom v nogometni šoli NK Bled. Moj sin je v klubu že tretje leto in z veseljem obiskuje treninge. Trenerji so strokovni, prijazni in znajo motivirati otroke. Poleg tega klub redno organizira družabne dogodke, ki povezujejo otroke, starše in trenerje. <sup><i class="fa fa-quote-right" aria-hidden="true"></i></sup></p>
+        <p class="ime">Nina Vidmar, starš mladega igralca</p>
+      </div>
+    </div>
+  </div>
+  <!-- Okvir noge z dvema stolpcema -->
+<footer class="container-fluid text-center">
+  <div class="row">
+    <!-- Socialne ikone -->
+    <div class="nogaLevo col-sm-6">
+      <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+      <a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+      <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+      <a href="#" data-toggle="tooltip" data-placement="top" title="Youtube"><i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i></a>
+    </div>
+    <div class="nogaDesno col-sm-6">
+      © Nogometni klub Bled, 2025
+    </div>
+  </div>
+</footer>
+<main>
+  <section>
+    <h2>Pozdravljeni na uradni strani NK Bled!</h2>
+    <p>Dobrodošli na spletišču, kjer najdete vse informacije o našem klubu, ekipah, razporedu tekem in še več.</p>
+  
+  </section>
+</main>
+</body>
+
+</html>
